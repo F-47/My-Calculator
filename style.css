@@ -1,0 +1,43 @@
+body{
+    background-color: black !important;
+    font-size: 30px !important;
+    height: 90vh;
+    user-select: none;
+}
+
+.row{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.card-text{
+    font-weight: bold !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text .col-lg-3:not(:last-child){
+    border-right: 2px solid rgb(0, 0, 0) !important;
+    border-bottom: 2px solid rgb(0, 0, 0) !important;
+    padding: 20px;
+    cursor: pointer;
+    max-height: 85px;
+}
+
+.card-text .equal{
+    position: relative;
+}
+
+.card-text .equal::before{
+    content: "=";
+    position: absolute;
+    top: 120px;
+    left: 40px;
+    font-size: 60px;
+}
+
+.card-text .getAnswer{
+    min-height: 85px;
+    padding: 20px;
+}
